@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith Model School</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-sm sticky top-0">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      
+      <!-- Logo + Name -->
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="Logo" class="h-12 w-12 rounded-full object-cover">
+        <h1 class="text-xl font-bold">Zenith Model School</h1>
+      </div>
+
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#" class="hover:text-blue-600">Home</a>
+        <a href="#notices" class="hover:text-blue-600">Notices</a>
+        <a href="#fees" class="hover:text-blue-600">Fees</a>
+        <a href="#login" class="hover:text-blue-600">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Welcome to Zenith Model School</h2>
+    <p class="text-lg opacity-90">Simple, modern and easy way to manage school updates</p>
+    <div class="mt-6">
+      <a href="#login" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 p-6">
+    <div class="bg-white p-6 rounded-2xl shadow-sm">
+      <h3 class="font-semibold text-lg mb-2">Online Admission</h3>
+      <p class="text-sm text-gray-600">Students can apply online and track admission status easily.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-sm">
+      <h3 class="font-semibold text-lg mb-2">Fee Tracking</h3>
+      <p class="text-sm text-gray-600">Check due fees, payments, and history in one place.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-sm">
+      <h3 class="font-semibold text-lg mb-2">Notices</h3>
+      <p class="text-sm text-gray-600">Get instant updates from school administration.</p>
+    </div>
+  </section>
+
+  <!-- Notices -->
+  <section id="notices" class="max-w-4xl mx-auto p-6">
+    <h2 class="text-2xl font-bold mb-4">Latest Notices</h2>
+    <div class="space-y-3">
+      <div class="bg-white p-4 rounded-xl shadow-sm">Mid-term exam starts next week.</div>
+      <div class="bg-white p-4 rounded-xl shadow-sm">School will remain closed on Friday.</div>
+      <div class="bg-white p-4 rounded-xl shadow-sm">New admission open for class 6-9.</div>
+    </div>
+  </section>
+
+  <!-- Login -->
+  <section id="login" class="max-w-md mx-auto p-6">
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-xl font-bold mb-4">Login</h2>
+      <input class="w-full p-3 border rounded mb-3" placeholder="Email" />
+      <input type="password" class="w-full p-3 border rounded mb-3" placeholder="Password" />
+      <button class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700">Login</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 text-sm text-gray-500">
+    © 2026 Zenith Model School. All rights reserved.
+  </footer>
+
+</body>
+</html>
